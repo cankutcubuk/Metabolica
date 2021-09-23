@@ -12,22 +12,13 @@ Metabolica uses transcriptomic and/or genomic data as input to predict reaction 
 <!DOCTYPE html>
 <html>
 <body>
-<style>
-.myClass {
-  color: white;
-  background-color: DodgerBlue;
-  padding: 20px;
-  text-align: center;
-  margin: 10px;
-}
-</style>
 
 <h1>The HTML template</h1>
 
 <p>This example fills the web page with one new div .......... some text </p>
 
 <template>
-  <div class="myClass">I like this code: </div>
+  I like this code:
 </template>
 
 <pre>
