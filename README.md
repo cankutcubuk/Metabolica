@@ -48,7 +48,27 @@ Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
  
   <li><a href="#quick-start">Quick start</a></li>
   
-  p>Other Bioconductor packages with similar aims are <a href="http://bioconductor.org/packages/edgeR">edgeR</a>, <a href="http://bioconductor.org/packages/limma">limma</a>, <a href="http://bioconductor.org/packages/DSS">DSS</a>, <a href="http://bioconductor.org/packages/EBSeq">EBSeq</a>, and <a href="http://bioconductor.org/packages/baySeq">baySeq</a>.</p>
+  <a href="#Specify_a_Hyperlink_Target_href">This first anchor element</a> links back to the heading of this section of the tutorial by linking to an <code>id</code> we assigned to the section heading element. We can use the <code>mailto</code> protocol to create a link that will try to launch the default email program on your computer. Let's give it a try! We'd love for you to <a href="mailto:contact@html.com"> get in touch</a> with us! Lastly, if you click the link below a complimentary JavaScript alert window will appear. <a> Click the link to see what happens</a>.
+
+Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
+  
+  <a href="#Specify_a_Hyperlink_Target_href">This first anchor element</a> links back to the heading of this section of the tutorial by linking to an <code>id</code> we assigned to the section heading element. We can use the <code>mailto</code> protocol to create a link that will try to launch the default email program on your computer. Let's give it a try! We'd love for you to <a href="mailto:contact@html.com"> get in touch</a> with us! Lastly, if you click the link below a complimentary JavaScript alert window will appear. <a> Click the link to see what happens</a>.
+
+Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
+  
+  <a href="#Specify_a_Hyperlink_Target_href">This first anchor element</a> links back to the heading of this section of the tutorial by linking to an <code>id</code> we assigned to the section heading element. We can use the <code>mailto</code> protocol to create a link that will try to launch the default email program on your computer. Let's give it a try! We'd love for you to <a href="mailto:contact@html.com"> get in touch</a> with us! Lastly, if you click the link below a complimentary JavaScript alert window will appear. <a> Click the link to see what happens</a>.
+
+Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
+  
+  <a href="#Specify_a_Hyperlink_Target_href">This first anchor element</a> links back to the heading of this section of the tutorial by linking to an <code>id</code> we assigned to the section heading element. We can use the <code>mailto</code> protocol to create a link that will try to launch the default email program on your computer. Let's give it a try! We'd love for you to <a href="mailto:contact@html.com"> get in touch</a> with us! Lastly, if you click the link below a complimentary JavaScript alert window will appear. <a> Click the link to see what happens</a>.
+
+Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
+  
+  <a href="#Specify_a_Hyperlink_Target_href">This first anchor element</a> links back to the heading of this section of the tutorial by linking to an <code>id</code> we assigned to the section heading element. We can use the <code>mailto</code> protocol to create a link that will try to launch the default email program on your computer. Let's give it a try! We'd love for you to <a href="mailto:contact@html.com"> get in touch</a> with us! Lastly, if you click the link below a complimentary JavaScript alert window will appear. <a> Click the link to see what happens</a>.
+
+Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
+  
+  <p>Other Bioconductor packages with similar aims are <a href="http://bioconductor.org/packages/edgeR">edgeR</a>, <a href="http://bioconductor.org/packages/limma">limma</a>, <a href="http://bioconductor.org/packages/DSS">DSS</a>, <a href="http://bioconductor.org/packages/EBSeq">EBSeq</a>, and <a href="http://bioconductor.org/packages/baySeq">baySeq</a>.</p>
 <div id="quick-start" class="section level2">
 <h2>Quick start</h2>
   
