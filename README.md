@@ -48,6 +48,10 @@ Read more: https://html.com/anchors-links/#ixzz77HcBAYOD
  
   <li><a href="#quick-start">Quick start</a></li>
   
+  p>Other Bioconductor packages with similar aims are <a href="http://bioconductor.org/packages/edgeR">edgeR</a>, <a href="http://bioconductor.org/packages/limma">limma</a>, <a href="http://bioconductor.org/packages/DSS">DSS</a>, <a href="http://bioconductor.org/packages/EBSeq">EBSeq</a>, and <a href="http://bioconductor.org/packages/baySeq">baySeq</a>.</p>
+<div id="quick-start" class="section level2">
+<h2>Quick start</h2>
+  
 </body>
 </html>
 
