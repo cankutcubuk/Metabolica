@@ -35,7 +35,12 @@ Metabolica uses transcriptomic and/or genomic data as input to predict reaction 
   <div class="myClass">I like: </div>
 </template>
 
-</script>
+<pre>
+  <code>
+    p { color: red; }
+    body { background-color: #eee; }
+  </code>
+</pre>
 
 </body>
 </html>
