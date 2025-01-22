@@ -29,9 +29,12 @@ print(wdir)
 registerDoMC(cores=thread) 
 
 source("https://raw.githubusercontent.com/cankutcubuk/Metabolica/master/propagationFuncs.R")
-load("./files/combat.vals.LUAD.RData")
-load("./files/all_producers.RData")
-load("./files/rxn2gene.RData")
+# load("./files/combat.vals.LUAD.RData")
+load(url("https://raw.githubusercontent.com/babelomics/Metabolica/refs/heads/master/files/combat.vals.LUAD.RData"))
+# load("./files/all_producers.RData")
+load(url("https://raw.githubusercontent.com/babelomics/Metabolica/refs/heads/master/files/all_producers.RData"))
+# load("./files/rxn2gene.RData")
+load(url("https://raw.githubusercontent.com/babelomics/Metabolica/refs/heads/master/files/rxn2gene.RData"))
 
 nodeVals <- do.calc.rxnvals(all_producers,rxn2gene,combat.vals)
 
@@ -46,4 +49,3 @@ res <- foreach(i=1:length(all_producers), .combine = c) %dopar% {
 
 res$parameters <- c("algR"=algR, "algM"=algM, "wdir"=wdir)
 save(res, file = paste0(wdir,"/TCGA_18cancertype_withVariants_",algM,"_",algR,"_quantile50.RData"))
-
