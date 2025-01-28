@@ -309,8 +309,8 @@ do.calc.rxnvals <- function(all_producers,rxn2gene,combat.vals){
       }
     }
     if(isTRUE){ 
-      gexCL <- do.call(gexCL, what = "rbind") # If every value in gexCL is NA, it returns -Inf.
-      gexC <- apply(gexCL,2, function(x) max(x,na.rm = T))
+      gexCL <- do.call(gexCL, what = "rbind")
+      gexC <- apply(gexCL,2, function(x) max(x,na.rm = T)) # If every value in gexCL is NA, it returns -Inf.
     }else{
       gexC <- gexC
     }
